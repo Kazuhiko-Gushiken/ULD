@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "uld:platinum_uld"
+    }
+  ],
+  "result": {
+    "item": "uld:gold_uld",
+    "count": 9
+  }
+}

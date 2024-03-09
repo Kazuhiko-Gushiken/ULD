@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "uld:copper_uld"
+    }
+  },
+  "result": {
+    "item": "uld:bronze_uld",
+    "count": 1
+  }
+}

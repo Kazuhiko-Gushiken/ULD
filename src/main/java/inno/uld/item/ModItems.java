@@ -24,4 +24,8 @@ public class ModItems {
     public static final Supplier<Item> PLATINUM_ULD = ITEMS.registerItem("platinum_uld", Item::new);
     public static final Supplier<Item> PALLADIUM_ULD = ITEMS.registerItem("palladium_uld", Item::new);
     public static final Supplier<Item> MITHRIL_ULD = ITEMS.registerItem("mithril_uld", Item::new);
+
+    public static void register(IEventBus eventBus) {
+        ITEMS.register(eventBus);
+    }
 }

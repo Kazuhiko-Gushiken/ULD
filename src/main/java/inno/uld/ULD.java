@@ -21,6 +21,7 @@ import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
 import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredRegister;
+
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
@@ -46,7 +47,7 @@ public class ULD
     public static final DeferredHolder<CreativeModeTab, CreativeModeTab> ULD_TAB = CREATIVE_MODE_TABS.register("uld_tab", () -> CreativeModeTab.builder()
             .title(Component.translatable("itemGroup.uld")) //The language key for the title of your CreativeModeTab
             .withTabsBefore(CreativeModeTabs.COMBAT)
-            .icon(() -> ModItems.COPPER_ULD.get().getDefaultInstance())
+            .icon(() -> ModItems.MITHRIL_ULD.get().getDefaultInstance())
             .displayItems((parameters, output) -> {
                 output.accept(ModItems.COPPER_ULD.get()); // Add the example item to the tab. For your own tabs, this method is preferred over the event
                 output.accept(ModItems.BRONZE_ULD.get());
@@ -67,7 +68,9 @@ public class ULD
         ITEMS.register(modEventBus);
         // Register the Deferred Register to the mod event bus so tabs get registered
         CREATIVE_MODE_TABS.register(modEventBus);
-        modEventBus.register(ModItems.ITEMS);
+
+
+        ModItems.register(modEventBus);
         // Register ourselves for server and other game events we are interested in.
         // Note that this is necessary if and only if we want *this* class (ExampleMod) to respond directly to events.
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
@@ -96,6 +99,7 @@ public class ULD
     {
         // Do something when the server starts
         LOGGER.info("HELLO from server starting");
+
     }
 
     // You can use EventBusSubscriber to automatically register all static methods in the class annotated with @SubscribeEvent

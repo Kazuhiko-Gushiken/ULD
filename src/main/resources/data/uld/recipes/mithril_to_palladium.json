@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "uld:mithril_uld"
+    }
+  ],
+  "result": {
+    "item": "uld:palladium_uld",
+    "count": 9
+  }
+}

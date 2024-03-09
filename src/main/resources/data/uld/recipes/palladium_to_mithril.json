@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "uld:palladium_uld"
+    }
+  },
+  "result": {
+    "item": "uld:mithril_uld",
+    "count": 1
+  }
+}

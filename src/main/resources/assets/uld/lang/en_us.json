@@ -1,5 +1,11 @@
 {
   "item.uld.copper_uld": "Copper Uld",
+  "item.uld.bronze_uld": "Bronze Uld",
+  "item.uld.silver_uld": "Silver Uld",
+  "item.uld.gold_uld": "Gold Uld",
+  "item.uld.platinum_uld": "Platinum Uld",
+  "item.uld.palladium_uld": "Palladium Uld",
+  "item.uld.mithril_uld": "Mithril Uld",
 
   "itemGroup.uld": "Uld"
 }
