@@ -1,16 +1,26 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "pattern": [
-    "###",
-    "###",
-    "###"
-  ],
-  "key": {
-    "#": {
+  "ingredients": [
+    {
+      "item": "uld:palladium_uld"
+    },
+    {
+      "item": "uld:palladium_uld"
+    },
+    {
+      "item": "uld:palladium_uld"
+    },
+    {
+      "item": "uld:palladium_uld"
+    },
+    {
+      "item": "uld:palladium_uld"
+    },
+    {
       "item": "uld:palladium_uld"
     }
-  },
+  ],
   "result": {
     "item": "uld:mithril_uld",
     "count": 1

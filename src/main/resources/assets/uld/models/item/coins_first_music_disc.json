@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "uld:item/coins_first_music_disc"
+  }
+}

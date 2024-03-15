@@ -1,16 +1,26 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "pattern": [
-    "###",
-    "###",
-    "###"
-  ],
-  "key": {
-    "#": {
+  "ingredients": [
+    {
+      "item": "uld:copper_uld"
+    },
+    {
+      "item": "uld:copper_uld"
+    },
+    {
+      "item": "uld:copper_uld"
+    },
+    {
+      "item": "uld:copper_uld"
+    },
+    {
+      "item": "uld:copper_uld"
+    },
+    {
       "item": "uld:copper_uld"
     }
-  },
+  ],
   "result": {
     "item": "uld:bronze_uld",
     "count": 1

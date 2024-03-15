@@ -2,6 +2,7 @@ package inno.uld;
 
 import com.mojang.logging.LogUtils;
 import inno.uld.item.ModItems;
+import inno.uld.sound.ModSounds;
 import net.minecraft.client.Minecraft;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
@@ -56,6 +57,7 @@ public class ULD
                 output.accept(ModItems.PLATINUM_ULD.get());
                 output.accept(ModItems.PALLADIUM_ULD.get());
                 output.accept(ModItems.MITHRIL_ULD.get());
+                output.accept(ModItems.COINS_FIRST_MUSIC_DISC.get());
             }).build());
     public ULD(IEventBus modEventBus)
     {
@@ -71,6 +73,8 @@ public class ULD
 
 
         ModItems.register(modEventBus);
+        ModSounds.register(modEventBus);
+
         // Register ourselves for server and other game events we are interested in.
         // Note that this is necessary if and only if we want *this* class (ExampleMod) to respond directly to events.
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.

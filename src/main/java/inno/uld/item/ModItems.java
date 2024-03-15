@@ -1,9 +1,12 @@
 package inno.uld.item;
 
 import inno.uld.ULD;
+import inno.uld.sound.ModSounds;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Rarity;
+import net.minecraft.world.item.RecordItem;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
@@ -24,6 +27,15 @@ public class ModItems {
     public static final Supplier<Item> PLATINUM_ULD = ITEMS.registerItem("platinum_uld", Item::new);
     public static final Supplier<Item> PALLADIUM_ULD = ITEMS.registerItem("palladium_uld", Item::new);
     public static final Supplier<Item> MITHRIL_ULD = ITEMS.registerItem("mithril_uld", Item::new);
+
+
+    public static final Supplier<RecordItem> COINS_FIRST_MUSIC_DISC = ITEMS.register("coins_first_music_disc",
+            () -> new RecordItem(6, ModSounds.COINS_FIRST,
+                    new Item.Properties()
+                            .stacksTo(1)
+                            .rarity(Rarity.EPIC),
+                    2960)
+    );
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

@@ -1,16 +1,26 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "pattern": [
-    "###",
-    "###",
-    "###"
-  ],
-  "key": {
-    "#": {
+  "ingredients": [
+    {
+      "item": "uld:platinum_uld"
+    },
+    {
+      "item": "uld:platinum_uld"
+    },
+    {
+      "item": "uld:platinum_uld"
+    },
+    {
+      "item": "uld:platinum_uld"
+    },
+    {
+      "item": "uld:platinum_uld"
+    },
+    {
       "item": "uld:platinum_uld"
     }
-  },
+  ],
   "result": {
     "item": "uld:palladium_uld",
     "count": 1

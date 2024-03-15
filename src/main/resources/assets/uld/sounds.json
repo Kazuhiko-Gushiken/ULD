@@ -1,0 +1,10 @@
+{
+  "coins_first": {
+    "sounds": [
+      {
+        "name": "uld:coins_first",
+        "stream": true
+      }
+    ]
+  }
+}

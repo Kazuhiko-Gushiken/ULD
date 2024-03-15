@@ -1,16 +1,26 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "pattern": [
-    "###",
-    "###",
-    "###"
-  ],
-  "key": {
-    "#": {
+  "ingredients": [
+    {
+      "item": "uld:gold_uld"
+    },
+    {
+      "item": "uld:gold_uld"
+    },
+    {
+      "item": "uld:gold_uld"
+    },
+    {
+      "item": "uld:gold_uld"
+    },
+    {
+      "item": "uld:gold_uld"
+    },
+    {
       "item": "uld:gold_uld"
     }
-  },
+  ],
   "result": {
     "item": "uld:platinum_uld",
     "count": 1

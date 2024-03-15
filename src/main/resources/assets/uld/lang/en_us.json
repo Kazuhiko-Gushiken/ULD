@@ -7,5 +7,8 @@
   "item.uld.palladium_uld": "Palladium Uld",
   "item.uld.mithril_uld": "Mithril Uld",
 
-  "itemGroup.uld": "Uld"
+  "itemGroup.uld": "Uld",
+
+  "item.uld.coins_first_music_disc": "Coins First Music Disc",
+  "item.uld.coins_first_music_disc.desc": "PGN Music - Coins First (CC0)"
 }
